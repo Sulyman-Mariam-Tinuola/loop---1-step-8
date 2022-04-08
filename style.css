@@ -1,0 +1,174 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, Blink   MacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+* *::before *::after{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(8deg 52% 94%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.8rem;
+    
+}
+
+main {
+
+    width: 40vw;
+    height: 90vh;
+    background-color: white;
+     
+}
+
+.bg {
+    width: 25vw;
+    height: 90vh;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -2.1rem;
+
+}
+
+.second {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 2rem;
+    
+    margin-left: 23rem;
+       
+    
+}
+
+.bb {
+    margin-top: -.3rem;
+}
+
+.bb:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.mm img {
+    height: 1rem;
+}
+
+.mm {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: hsl(213deg 34% 59%);
+    font-weight: 600;
+    margin-left: 2rem;
+    padding-top: 1rem;
+    gap: .4rem;
+    
+}
+
+.n {
+    color: hsl(0deg 0% 73%);
+}
+
+.n:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.vf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.va {
+    font-size: 12px;
+    font-weight: 600;
+}
+ 
+.vp {
+    font-family: 'Playfair Display'; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 4.5rem;
+    padding-top: 7rem;
+    
+    }
+
+
+.jerry {
+    font-family: 'Playfair Display'; 
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.line {
+    height: 4px;
+    width: 10rem;
+    background-color: black;
+    margin-right: 5rem;
+    margin-top: 6rem;
+    
+}
+
+img {
+    height: 7rem;
+}
+
+.side {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: hsl(340deg 1% 52%);
+    font-weight: 600;
+    margin-left: 3.5rem;
+    padding-top: 1.5rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.p {
+    max-width: 270px;
+    color: hsl(340deg 1% 52%);
+    font-weight: 600;
+    line-height: 1.9rem;
+    font-size: 16px;
+    margin-left: 6rem;
+    padding-top: 1.5rem;
+
+}
+
+.play {
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: white;
+    padding: .5rem;
+    margin-left: -6.8rem;
+    margin-bottom: 2rem;
+    
+}
+
+.forward {
+    height: 1rem;
+}
+
+.vpc {
+    margin-left: 5.5rem;
+}
